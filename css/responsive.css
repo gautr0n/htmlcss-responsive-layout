@@ -1,0 +1,29 @@
+@media screen and (min-width: 1200px) {
+
+}
+
+
+@media screen and (min-width: 992px) {
+    .container{
+    width: 80%;
+    }
+
+    .burger{
+        display: none;
+    }
+
+    .nav-bar{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+
+}
+
+
+@media screen and (min-width: 480px) {
+
+}
