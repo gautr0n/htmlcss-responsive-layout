@@ -9,6 +9,11 @@
 }
 
 /*utilities*/
+.place-holder{
+    width: 100%;
+    padding: 30px 0;
+}
+
 :root{
     --blue: #0084FD;
     --lightblue: #B5DDFF;
@@ -35,6 +40,10 @@
     padding: 10px 20px;
 }
 
+.round-bt{
+    border-radius: 50%;
+}
+
 .border-r{
     border-radius: 25px;
 }
@@ -42,6 +51,13 @@
 .white-bt{
     background-color: white;
     color: var(--lightpurple);
+}
+
+.lightpurple-bt{
+    background-color: var(--lightpurple);
+    padding: 10px 15px;
+    color: black;
+    font-size: 20px;
 }
 
 .container{
@@ -59,6 +75,10 @@
 
 .bg-lightblue{
     background-color: var(--lightblue);
+}
+
+.bg-white{
+    background-color: white;
 }
 
 /*header*/
@@ -92,6 +112,7 @@ header i{
 
 /*main*/
 
+/*lightblue or "1st" part*/
 .big-box{
     min-height: 550px;
     width: 100%;
@@ -100,4 +121,13 @@ header i{
 .small-box{
     min-height: 350px;
     width: 100%;
+}
+
+/*lightpurple or "2nd" part*/
+.bg-lightpurple{
+    background-color: var(--lightpurple);
+}
+
+.padding-bt{
+    padding-bottom: 50px;
 }
