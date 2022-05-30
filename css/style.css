@@ -154,3 +154,6 @@ header i{
 }
 
 /*aboutus*/
+.about-us img{
+    width: 100%;
+}
