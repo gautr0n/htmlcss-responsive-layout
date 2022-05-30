@@ -23,9 +23,20 @@
     align-items: center;
 }
 
+.disp-flex-column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 .button{
     padding: 10px 20px;
-    border-radius: 20px;
+}
+
+.border-r{
+    border-radius: 25px;
 }
 
 .white-bt{
@@ -34,6 +45,7 @@
 }
 
 .container{
+    width: 95%;
     margin: auto;
 }
 
@@ -42,7 +54,11 @@
 }
 
 .padd10{
-    padding: 10px 20px;
+    padding: 5px 20px;
+}
+
+.bg-lightblue{
+    background-color: var(--lightblue);
 }
 
 /*header*/
@@ -58,6 +74,7 @@ header i{
 
 #logo{
     height: 60px;
+    margin: 10px 0;
 }
 
 .nav-bar{
@@ -71,4 +88,16 @@ header i{
 
 .nav-bar .white-bt{
     color: black;
+}
+
+/*main*/
+
+.big-box{
+    min-height: 550px;
+    width: 100%;
+}
+
+.small-box{
+    min-height: 350px;
+    width: 100%;
 }

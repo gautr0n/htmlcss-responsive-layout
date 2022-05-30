@@ -5,7 +5,7 @@
 
 @media screen and (min-width: 992px) {
     .container{
-    width: 80%;
+    width: 85%;
     }
 
     .burger{
@@ -20,7 +20,22 @@
 
 
 @media screen and (min-width: 768px) {
+    .disp-flex-column{
+        flex-direction: row;
+    }
 
+    .big-box{
+        width: calc(65%);
+    }
+
+    .small-box{
+        width: calc(30%);
+        min-height: 450px;
+    }
+
+    .small-box:nth-child(2){
+        min-height: 550px;
+    }
 }
 
 
