@@ -1,6 +1,6 @@
 /*generics*/
 * {
-    margin: 0;
+    margin:0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'PT Sans', sans-serif;
@@ -169,6 +169,21 @@ header i{
     padding-bottom: 50px;
 }
 
+.planning h2{
+    font-size: 40px;
+}
+
+.planning1 *{
+ color: white;
+}
+
+.planning img{
+    text-align: center;
+    width: 100%;
+}
+
+
+
 /*testimonials*/
 .testimonials{
     width: 100%;
@@ -176,6 +191,14 @@ header i{
     text-align: center;
     color: white;
 }
+.testimonials img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
+}
+
+
 
 /*benefits*/
 .benefits{
