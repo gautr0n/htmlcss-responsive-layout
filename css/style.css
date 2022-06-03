@@ -78,7 +78,7 @@
 }
 
 .container{
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
@@ -270,4 +270,42 @@ header i{
     width: 200px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+/*get started*/
+.get-started{
+    padding: 30px 0;
+    text-align: center;
+}
+
+.get-started *{
+    color: white;
+}
+
+.get-started strong{
+    color: var(--lightpurple);
+}
+
+.get-started h2{
+    color: var(--orange);
+    font-size: 55px;
+}
+
+.get-started-tras{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/*footer*/
+.bg-footer{
+    background-color: #333333;
+    text-align: center;
+}
+
+.bg-footer div{
+    color: white;
+}
+
+.bg-footer a{
+    color: var(--lightpurple);
+    text-decoration: underline;
 }
